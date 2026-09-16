@@ -7,6 +7,7 @@
         "dependencies" : {}
       },
       "nix" : {
+        "imports" : "./microui.nix",
         "nativeBuildInputs" : [],
         "buildInputs" : [],
         "propagatedNativeBuildInputs" : [],
