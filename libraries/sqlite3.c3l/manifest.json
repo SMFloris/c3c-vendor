@@ -3,6 +3,19 @@
 	"sources": [
 		"sqlite.c3i"
 	],
+	"vendor": {
+		"c3pm": {
+			"c3": {
+				"dependencies": {}
+			},
+			"nix": {
+				"nativeBuildInputs": [],
+				"buildInputs": ["sqlite"],
+				"propagatedNativeBuildInputs": [],
+				"propagatedBuildInputs": []
+			}
+		}
+	},
 	"targets": {
 		"macos-aarch64": { "linked-libraries": ["sqlite3"] },
 		"macos-x64": { "linked-libraries": ["sqlite3"] },

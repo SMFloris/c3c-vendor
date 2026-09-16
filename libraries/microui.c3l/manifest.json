@@ -1,6 +1,19 @@
 {
   "provides" : "microui",
   "linklib-dir" : "linked-libs",
+  "vendor" : {
+    "c3pm" : {
+      "c3" : {
+        "dependencies" : {}
+      },
+      "nix" : {
+        "nativeBuildInputs" : [],
+        "buildInputs" : [],
+        "propagatedNativeBuildInputs" : [],
+        "propagatedBuildInputs" : []
+      }
+    }
+  },
   "targets" : {
     "android-aarch64" : {
       "link-args" : [],
