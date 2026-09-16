@@ -35,7 +35,7 @@
 		"linux-x64" : {
 			"link-args" : [],
 			"dependencies" : [],
-			"linked-libraries" : [ "ktx", "astcenc-avx2-static", "fmt", "imageio", "ktx_read", "obj_basisu_cbind", "objUtil" ]
+			"linked-libraries" : [ "ktx" ]
 		},
 		"macos-aarch64" : {
 			"link-args" : [],

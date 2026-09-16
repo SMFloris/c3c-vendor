@@ -1,6 +1,6 @@
 {
 	"provides" : "sdl3_ttf",
-	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["sdl3", "sdl3-ttf"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["sdl3", "sdl3-ttf", "freetype", "harfbuzz", "plutosvg", "plutovg"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"android-aarch64" : {
 			"link-args" : [],

@@ -1,6 +1,6 @@
 {
 	"provides": "mysql8",
-	"vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "nativeBuildInputs": [], "buildInputs": ["libmysqlclient"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
+	"vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "nativeBuildInputs": [], "buildInputs": ["mysql80"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
 	"targets": {
 		"macos-aarch64": {
 			"linked-libraries": [
