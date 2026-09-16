@@ -1,5 +1,6 @@
 {
 	"provides" : "tree_sitter",
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["tree-sitter"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"linux-aarch64" : {
 			"linked-libraries" : ["tree-sitter"]

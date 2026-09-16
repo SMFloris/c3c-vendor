@@ -1,5 +1,6 @@
 {
 	"provides" : "opengl",
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["libGL"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"emscripten" : {
 			"link-args" : [],

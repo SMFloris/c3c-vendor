@@ -1,5 +1,6 @@
 {
 	"provides" : "tinyfiledialogs",
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "imports" : "./tinyfiledialogs.nix", "nativeBuildInputs" : [], "buildInputs" : [], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"linux-x86" : {
 			"linked-libraries" : ["tinyfiledialogs"]

@@ -1,5 +1,6 @@
 { 
 	"provides" : "tigr",
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "imports" : "./tigr.nix", "nativeBuildInputs" : [], "buildInputs" : [], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"macos-x64" : {
 			"linked-libraries" : ["tigr", "Cocoa.framework", "OpenGL.framework"]

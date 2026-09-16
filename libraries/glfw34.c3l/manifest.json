@@ -1,5 +1,6 @@
 {
 	"provides": "glfw34",
+	"vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "nativeBuildInputs": [], "buildInputs": ["glfw"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
 	"targets" : {
 		"macos-x64" : {
 			"link-args" : [],

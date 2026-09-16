@@ -1,5 +1,6 @@
 {
 	"provides" : "vulkan",
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["vulkan-loader"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"freebsd-x64" : {
 			"link-args" : [],
@@ -70,6 +71,6 @@
 			"link-args" : [],
 			"dependencies" : [],
 			"linked-libraries" : ["vulkan-1"]
-		},
+		}
 	}
 }

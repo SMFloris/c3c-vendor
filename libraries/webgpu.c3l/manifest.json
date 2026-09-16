@@ -1,5 +1,6 @@
 {
 	"provides" : "webgpu",
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["wgpu-native"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"android-aarch64" : {
 			"linked-libraries" : ["wgpu_native"]

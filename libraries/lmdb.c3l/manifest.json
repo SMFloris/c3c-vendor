@@ -1,5 +1,6 @@
 {
 	"provides": "lmdb",
+	"vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "nativeBuildInputs": [], "buildInputs": ["lmdb"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
 	"sources": ["lmdb.c3i"],
 	"targets": {
 		"linux-x86": { "linked-libraries": [ "lmdb" ] },

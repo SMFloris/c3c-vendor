@@ -1,5 +1,6 @@
 {
   "provides" : "tracy",
+  "vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["tracy"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
   "sources": [ "tracy.c3i", "src/**" ],
 	"targets" : {
 		"linux-x86" : {

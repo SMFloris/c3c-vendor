@@ -1,5 +1,6 @@
 {
 	"provides": "spng",
+	"vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "nativeBuildInputs": [], "buildInputs": ["libspng"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
 	"targets" : {
 		"macos-x64" : {
 			"link-args" : [],
