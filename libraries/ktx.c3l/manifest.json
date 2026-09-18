@@ -1,6 +1,7 @@
 {
 	"provides" : "ktx",
-	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["ktx-tools"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
+	"dependencies" : [ "vulkan" ],
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : { "vulkan" : { "source" : "github", "owner" : "SMFloris", "repository" : "c3c-vendor", "rev" : "c3pm", "subdir" : "libraries/vulkan.c3l" } } }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["ktx-tools"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"android-aarch64" : {
 			"link-args" : [],

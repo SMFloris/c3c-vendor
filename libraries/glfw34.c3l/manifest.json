@@ -1,6 +1,7 @@
 {
 	"provides": "glfw34",
-	"vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "nativeBuildInputs": [], "buildInputs": ["glfw"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
+	"dependencies": [ "vulkan" ],
+	"vendor": { "c3pm": { "c3": { "dependencies": { "vulkan": { "source": "github", "owner": "SMFloris", "repository": "c3c-vendor", "rev": "c3pm", "subdir": "libraries/vulkan.c3l" } } }, "nix": { "nativeBuildInputs": [], "buildInputs": ["glfw"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
 	"targets" : {
 		"macos-x64" : {
 			"link-args" : [],
