@@ -1,4 +1,8 @@
-{ stdenv, raygui, raylib }:
+{ stdenv, raygui, callPackage }:
+
+let
+  raylib = callPackage ./raylib.nix { };
+in
 
 stdenv.mkDerivation {
   pname = "raygui-static";

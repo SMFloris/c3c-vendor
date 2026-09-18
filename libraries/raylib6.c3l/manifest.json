@@ -1,6 +1,6 @@
 {
   "provides": "raylib6",
-  "vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "imports": "./raygui.nix", "nativeBuildInputs": [], "buildInputs": ["raylib", "libX11", "libXrandr", "libXinerama", "libXi", "libXcursor"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
+  "vendor": { "c3pm": { "c3": { "dependencies": {} }, "nix": { "imports": ["./raylib.nix", "./raygui.nix"], "nativeBuildInputs": [], "buildInputs": ["libX11", "libXrandr", "libXinerama", "libXi", "libXcursor"], "propagatedNativeBuildInputs": [], "propagatedBuildInputs": [] } } },
   "targets": {
 	"macos-x64": {
 	  "link-args": [],

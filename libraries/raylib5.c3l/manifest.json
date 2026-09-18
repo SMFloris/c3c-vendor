@@ -1,6 +1,6 @@
 { 
 	"provides" : "raylib5",
-	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "nativeBuildInputs" : [], "buildInputs" : ["raylib"], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
+	"vendor" : { "c3pm" : { "c3" : { "dependencies" : {} }, "nix" : { "imports" : "./raylib.nix", "nativeBuildInputs" : [], "buildInputs" : [], "propagatedNativeBuildInputs" : [], "propagatedBuildInputs" : [] } } },
 	"targets" : {
 		"macos-x64" : {
 			"link-args" : [],
